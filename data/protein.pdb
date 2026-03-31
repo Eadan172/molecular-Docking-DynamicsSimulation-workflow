@@ -1,0 +1,1220 @@
+HEADER    OXIDOREDUCTASE                          15-JAN-96   1CX2              
+TITLE     STRUCTURE OF HUMAN CYCLOOXYGENASE-2 (COX-2)                           
+COMPND    MOL_ID: 1;                                                            
+COMPND   2 MOLECULE: PROSTAGLANDIN G/H SYNTHASE 2;                             
+COMPND   3 CHAIN: A;                                                             
+COMPND   4 FRAGMENT: CATALYTIC DOMAIN (RESIDUES 120-600);                        
+COMPND   5 SYNONYM: CYCLOOXYGENASE-2, COX-2;                                   
+COMPND   6 EC: 1.14.99.1;                                                        
+COMPND   7 ENGINEERED: YES                                                       
+SOURCE    MOL_ID: 1;                                                            
+SOURCE   2 ORGANISM_SCIENTIFIC: HOMO SAPIENS;                                  
+SOURCE   3 ORGANISM_COMMON: HUMAN;                                             
+SOURCE   4 EXPRESSION_SYSTEM: SPODOPTERA FRUGIPERDA;                           
+SOURCE   5 EXPRESSION_SYSTEM_COMMON: FALL ARMYWORM;                            
+SOURCE   6 EXPRESSION_SYSTEM_STRAIN: SF9;                                      
+SOURCE   7 EXPRESSION_SYSTEM_VECTOR_TYPE: BACULOVIRUS                          
+KEYWDS    OXIDOREDUCTASE, CYCLOOXYGENASE, COX-2, NSAID TARGET                   
+EXPDTA    X-RAY DIFFRACTION                                                     
+AUTHOR    R.G.KURUMBAIL,A.M.STEVENS,J.K.GIERSE,J.J.MCDONALD,                   
+AUTHOR   2 R.A.STEGEMAN,J.Y.PAK,D.GILDEA,B.C.MIYASHIRO,                       
+AUTHOR   3 T.D.PENNING,K.SEIBERT,P.C.ISAKSON,W.C.STALLINGS                    
+REVDAT   5   24-FEB-16 1CX2    1       REMARK                                   
+JRNL        AUTH   R.G.KURUMBAIL,A.M.STEVENS,J.K.GIERSE,                       
+JRNL        AUTH 2 J.J.MCDONALD,R.A.STEGEMAN,J.Y.PAK,                          
+JRNL        AUTH 3 D.GILDEA,B.C.MIYASHIRO,T.D.PENNING,                         
+JRNL        AUTH 4 K.SEIBERT,P.C.ISAKSON,W.C.STALLINGS                         
+JRNL        TITL   STRUCTURAL BASIS FOR SELECTIVE INHIBITION OF                
+JRNL        TITL 2 CYCLOOXYGENASE-2 BY ANTI-INFLAMMATORY AGENTS                
+JRNL        REF    NAT.STRUCT.BIOL.             V.   3   927 1996               
+JRNL        REFN                   ISSN 1072-8368                               
+JRNL        PMID   8901870                                                      
+JRNL        DOI    10.1038/NSB1196-927                                          
+REMARK   1                                                                      
+REMARK   1 REFERENCE 1                                                          
+REMARK   1  AUTH   R.G.KURUMBAIL,P.C.ISAKSON,W.C.STALLINGS                     
+REMARK   1  TITL   STRUCTURAL BASIS FOR COX-2 INHIBITION                         
+REMARK   1  REF    TO BE PUBLISHED                                              
+REMARK   1  REFN                                                                
+REMARK   2                                                                      
+REMARK   2 RESOLUTION.    3.00 ANGSTROMS.                                       
+REMARK   3                                                                      
+REMARK   3 REFINEMENT.                                                          
+REMARK   3   PROGRAM     : X-PLOR 3.1                                           
+REMARK   3   AUTHORS     : BRUNGER                                              
+REMARK   3                                                                      
+REMARK   3  DATA USED IN REFINEMENT.                                            
+REMARK   3   RESOLUTION RANGE HIGH (ANGSTROMS) : 3.00                           
+REMARK   3   RESOLUTION RANGE LOW  (ANGSTROMS) : 15.00                          
+REMARK   3   DATA CUTOFF            (SIGMA(F)) : 2.000                          
+REMARK   3   DATA CUTOFF HIGH         (ABS(F)) : 1200000.000                    
+REMARK   3   DATA CUTOFF LOW          (ABS(F)) : 0.0000                         
+REMARK   3   COMPLETENESS (WORKING+TEST)   (%) : 91.0                           
+REMARK   3   NUMBER OF REFLECTIONS             : 14287                          
+REMARK   3                                                                      
+REMARK   3  FIT TO DATA USED IN REFINEMENT.                                     
+REMARK   3   CROSS-VALIDATION METHOD          : FREE R                          
+REMARK   3   FREE R VALUE TEST SET SELECTION  : RANDOM                          
+REMARK   3   R VALUE            (WORKING SET) : 0.197                           
+REMARK   3   FREE R VALUE                     : 0.265                           
+REMARK   3   FREE R VALUE TEST SET SIZE   (%) : 5.000                           
+REMARK   3   FREE R VALUE TEST SET COUNT      : 751                             
+REMARK   3                                                                      
+REMARK   3  NUMBER OF NON-HYDROGEN ATOMS USED IN REFINEMENT.                    
+REMARK   3   PROTEIN ATOMS            : 3412                                    
+REMARK   3   HETEROGEN ATOMS          : 42                                      
+REMARK   3   SOLVENT ATOMS            : 46                                      
+REMARK   3                                                                      
+REMARK   3  B VALUES.                                                           
+REMARK   3   FROM WILSON PLOT           (A**2) : 55.00                          
+REMARK   3   MEAN B VALUE      (OVERALL, A**2) : 35.00                          
+REMARK   3   OVERALL ANISOTROPIC B VALUE.                                       
+REMARK   3    B11 (A**2) : 0.00000                                              
+REMARK   3    B22 (A**2) : 0.00000                                              
+REMARK   3    B33 (A**2) : 0.00000                                              
+REMARK   3    B12 (A**2) : 0.00000                                              
+REMARK   3    B13 (A**2) : 0.00000                                              
+REMARK   3    B23 (A**2) : 0.00000                                              
+REMARK   3                                                                      
+REMARK   3  ESTIMATED COORDINATE ERROR.                                         
+REMARK   3   ESD FROM LUZZATI PLOT        (A) : 0.40                            
+REMARK   3   ESD FROM SIGMAA              (A) : 0.40                            
+REMARK   3   LOW RESOLUTION CUTOFF        (A) : 5.00                            
+REMARK   3                                                                      
+REMARK   3  CROSS-VALIDATED ESTIMATED COORDINATE ERROR.                         
+REMARK   3   ESD FROM C-V LUZZATI PLOT    (A) : 0.60                            
+REMARK   3                                                                      
+REMARK   3  RMS DEVIATIONS FROM IDEAL VALUES.                                   
+REMARK   3   BOND LENGTHS                 (A) : 0.010                           
+REMARK   3   BOND ANGLES            (DEGREES) : 1.500                           
+REMARK   3   DIHEDRAL ANGLES        (DEGREES) : 25.00                           
+REMARK   3   IMPROPER ANGLES        (DEGREES) : 2.000                           
+REMARK   3                                                                      
+REMARK   3  MISCELLANEOUS.                                                      
+REMARK   3   ISOTROPIC THERMAL MODEL : RESTRAINED                             
+REMARK   3   ISOTROPIC THERMAL FACTOR RESTRAINTS    (A**2) : 2.000              
+REMARK   3   NCS MODEL : NONE                                                   
+REMARK   3   NCS RESTRAINTS                 (A) : NULL                          
+REMARK   3   NUMBER OF NCS SETS : NULL                                          
+REMARK   3   TORSION ANGLE POTENTIAL TYPE : COSINE                              
+REMARK   3                                                                      
+REMARK   4                                                                      
+REMARK   4 1CX2 COMPLIES WITH FORMAT V. 3.0                                     
+REMARK   7                                                                      
+REMARK   7 NMR CONSTRAINTS ARE AVAILABLE IN NMR RESTRAINTS FILE                 
+REMARK   7 1CX2.MR IN THE PDB ARCHIVE                                           
+REMARK 100                                                                      
+REMARK 100 THIS ENTRY HAS BEEN PROCESSED BY BNL PDB.                            
+REMARK 210                                                                      
+REMARK 210 EXPERIMENTAL DETAILS                                                 
+REMARK 210  METHOD USED : X-RAY DIFFRACTION                                     
+REMARK 210                                                                      
+REMARK 210  TEMPERATURE           (KELVIN) : 100.00                             
+REMARK 210  PH                             : 7.50                               
+REMARK 210  CRYSTALLIZATION TEMPERATURE (K) : 277.00                            
+REMARK 210                                                                      
+REMARK 210  CRYSTALLIZATION DETAILS                                             
+REMARK 210   CRYSTALLANT : POLYETHYLENE GLYCOL 4000                             
+REMARK 210   CRYSTALLANT CONCENTRATION (MG/ML) : 40.000                         
+REMARK 210   IONIC STRENGTH (M) : 0.100                                         
+REMARK 210   PH : 7.50                                                          
+REMARK 210   OTHER CRYSTALLIZATION DETAILS: BUFFER: 0.1M HEPES,                
+REMARK 210   10% ISOPROPANOL                                                    
+REMARK 215                                                                      
+REMARK 215 THE CRYSTAL IS IN THE ORTHORHOMBIC SPACE GROUP P212121               
+REMARK 215 WITH CELL DIMENSIONS A=179.4, B=133.5, C=85.7 ANGSTROMS.             
+REMARK 215 THERE IS ONE DIMER IN THE ASYMMETRIC UNIT.                           
+REMARK 215 THE MATHEWS COEFFICIENT IS 3.8 A**3/DA                               
+REMARK 215 CORRESPONDING TO A SOLVENT CONTENT OF 68%.                           
+REMARK 300                                                                      
+REMARK 300 BIOMOLECULE: 1                                                       
+REMARK 300 THIS ENTRY CONTAINS THE CRYSTALLOGRAPHIC ASYMMETRIC UNIT             
+REMARK 300 WHICH CONSISTS OF 2 CHAIN(S).                                        
+REMARK 300 THE BIOLOGICAL UNIT IS A DIMER.                                      
+REMARK 300 THE BIOLOGICAL UNIT IS GENERATED BY CRYSTALLOGRAPHIC SYMMETRY        
+REMARK 300 FROM THE COORDINATES IN THIS ENTRY.                                  
+REMARK 350                                                                      
+REMARK 350 COORDINATES FOR A COMPLETE MULTIMER REPRESENTING THE KNOWN          
+REMARK 350 BIOLOGICALLY SIGNIFICANT OLIGOMERIZATION STATE OF THE                
+REMARK 350 MOLECULE CAN BE GENERATED BY APPLYING BIOMT TRANSFORMATIONS          
+REMARK 350 GIVEN BELOW.  BOTH NON-CRYSTALLOGRAPHIC AND                          
+REMARK 350 CRYSTALLOGRAPHIC OPERATIONS ARE GIVEN.                               
+REMARK 350                                                                      
+REMARK 350 BIOMOLECULE: 1                                                       
+REMARK 350 APPLY THE FOLLOWING TO CHAINS: A, B                                  
+REMARK 350   BIOMT1   1  1.000000  0.000000  0.000000        0.00000            
+REMARK 350   BIOMT2   1  0.000000  1.000000  0.000000        0.00000            
+REMARK 350   BIOMT3   1  0.000000  0.000000  1.000000        0.00000            
+REMARK 465                                                                      
+REMARK 465 MISSING RESIDUES                                                     
+REMARK 465 THE FOLLOWING RESIDUES WERE NOT LOCATED IN THE                       
+REMARK 465 EXPERIMENT.                                                          
+REMARK 465                                                                      
+REMARK 465   MOL   CHAIN   RES    MISSING                                       
+REMARK 465 1 PRO A     1       NOT LOCATED                                      
+REMARK 465 2 GLY A     2       NOT LOCATED                                      
+REMARK 465 3 PRO A     3       NOT LOCATED                                      
+REMARK 465 4 SER A     4       NOT LOCATED                                      
+REMARK 465 5 SER A     5       NOT LOCATED                                      
+REMARK 465 6 SER A     6       NOT LOCATED                                      
+REMARK 465 7 SER A     7       NOT LOCATED                                      
+REMARK 465 8 SER A     8       NOT LOCATED                                      
+REMARK 465 9 SER A     9       NOT LOCATED                                      
+REMARK 465 10 ASP A    10      NOT LOCATED                                      
+REMARK 465 11 ALA A    11      NOT LOCATED                                      
+REMARK 465 12 ALA A    12      NOT LOCATED                                      
+REMARK 465 13 LYS A    13      NOT LOCATED                                      
+REMARK 465 14 PHE A    14      NOT LOCATED                                      
+REMARK 465 15 ILE A    15      NOT LOCATED                                      
+REMARK 465 16 ARG A    16      NOT LOCATED                                      
+REMARK 465 17 SER A    17      NOT LOCATED                                      
+REMARK 465 18 SER A    18      NOT LOCATED                                      
+REMARK 465 19 SER A    19      NOT LOCATED                                      
+REMARK 465 20 SER A    20      NOT LOCATED                                      
+REMARK 465 21 SER A    21      NOT LOCATED                                      
+REMARK 465 22 SER A    22      NOT LOCATED                                      
+REMARK 465 23 SER A    23      NOT LOCATED                                      
+REMARK 465 24 SER A    24      NOT LOCATED                                      
+REMARK 465 25 SER A    25      NOT LOCATED                                      
+REMARK 465 26 SER A    26      NOT LOCATED                                      
+REMARK 465 27 SER A    27      NOT LOCATED                                      
+REMARK 465 28 SER A    28      NOT LOCATED                                      
+REMARK 465 29 SER A    29      NOT LOCATED                                      
+REMARK 465 30 SER A    30      NOT LOCATED                                      
+REMARK 465 31 SER A    31      NOT LOCATED                                      
+REMARK 465 32 SER A    32      NOT LOCATED                                      
+REMARK 465 33 SER A    33      NOT LOCATED                                      
+REMARK 465 34 SER A    34      NOT LOCATED                                      
+REMARK 465 35 SER A    35      NOT LOCATED                                      
+REMARK 465 36 SER A    36      NOT LOCATED                                      
+REMARK 465 37 SER A    37      NOT LOCATED                                      
+REMARK 465 38 SER A    38      NOT LOCATED                                      
+REMARK 465 39 SER A    39      NOT LOCATED                                      
+REMARK 465 40 SER A    40      NOT LOCATED                                      
+REMARK 465 41 SER A    41      NOT LOCATED                                      
+REMARK 465 42 SER A    42      NOT LOCATED                                      
+REMARK 465 43 SER A    43      NOT LOCATED                                      
+REMARK 465 44 SER A    44      NOT LOCATED                                      
+REMARK 465 45 SER A    45      NOT LOCATED                                      
+REMARK 465 46 SER A    46      NOT LOCATED                                      
+REMARK 465 47 SER A    47      NOT LOCATED                                      
+REMARK 465 48 SER A    48      NOT LOCATED                                      
+REMARK 465 49 SER A    49      NOT LOCATED                                      
+REMARK 465 50 SER A    50      NOT LOCATED                                      
+REMARK 465 51 SER A    51      NOT LOCATED                                      
+REMARK 465 52 SER A    52      NOT LOCATED                                      
+REMARK 465 53 SER A    53      NOT LOCATED                                      
+REMARK 465 54 SER A    54      NOT LOCATED                                      
+REMARK 465 55 SER A    55      NOT LOCATED                                      
+REMARK 465 56 SER A    56      NOT LOCATED                                      
+REMARK 465 57 SER A    57      NOT LOCATED                                      
+REMARK 465 58 SER A    58      NOT LOCATED                                      
+REMARK 465 59 SER A    59      NOT LOCATED                                      
+REMARK 465 60 SER A    60      NOT LOCATED                                      
+REMARK 465 61 SER A    61      NOT LOCATED                                      
+REMARK 465 62 SER A    62      NOT LOCATED                                      
+REMARK 465 63 SER A    63      NOT LOCATED                                      
+REMARK 465 64 SER A    64      NOT LOCATED                                      
+REMARK 465 65 SER A    65      NOT LOCATED                                      
+REMARK 465 66 SER A    66      NOT LOCATED                                      
+REMARK 465 67 SER A    67      NOT LOCATED                                      
+REMARK 465 68 SER A    68      NOT LOCATED                                      
+REMARK 465 69 SER A    69      NOT LOCATED                                      
+REMARK 465 70 SER A    70      NOT LOCATED                                      
+REMARK 465 71 SER A    71      NOT LOCATED                                      
+REMARK 465 72 SER A    72      NOT LOCATED                                      
+REMARK 465 73 SER A    73      NOT LOCATED                                      
+REMARK 465 74 SER A    74      NOT LOCATED                                      
+REMARK 465 75 SER A    75      NOT LOCATED                                      
+REMARK 465 76 SER A    76      NOT LOCATED                                      
+REMARK 465 77 SER A    77      NOT LOCATED                                      
+REMARK 465 78 SER A    78      NOT LOCATED                                      
+REMARK 465 79 SER A    79      NOT LOCATED                                      
+REMARK 465 80 SER A    80      NOT LOCATED                                      
+REMARK 465 81 SER A    81      NOT LOCATED                                      
+REMARK 465 82 SER A    82      NOT LOCATED                                      
+REMARK 465 83 SER A    83      NOT LOCATED                                      
+REMARK 465 84 SER A    84      NOT LOCATED                                      
+REMARK 465 85 SER A    85      NOT LOCATED                                      
+REMARK 465 86 SER A    86      NOT LOCATED                                      
+REMARK 465 87 SER A    87      NOT LOCATED                                      
+REMARK 465 88 SER A    88      NOT LOCATED                                      
+REMARK 465 89 SER A    89      NOT LOCATED                                      
+REMARK 465 90 SER A    90      NOT LOCATED                                      
+REMARK 465 91 SER A    91      NOT LOCATED                                      
+REMARK 465 92 SER A    92      NOT LOCATED                                      
+REMARK 465 93 SER A    93      NOT LOCATED                                      
+REMARK 465 94 SER A    94      NOT LOCATED                                      
+REMARK 465 95 SER A    95      NOT LOCATED                                      
+REMARK 465 96 SER A    96      NOT LOCATED                                      
+REMARK 465 97 SER A    97      NOT LOCATED                                      
+REMARK 465 98 SER A    98      NOT LOCATED                                      
+REMARK 465 99 SER A    99      NOT LOCATED                                      
+REMARK 465 100 SER A   100     NOT LOCATED                                     
+REMARK 465 101 SER A   101     NOT LOCATED                                     
+REMARK 465 102 SER A   102     NOT LOCATED                                     
+REMARK 465 103 SER A   103     NOT LOCATED                                     
+REMARK 465 104 SER A   104     NOT LOCATED                                     
+REMARK 465 105 SER A   105     NOT LOCATED                                     
+REMARK 465 106 SER A   106     NOT LOCATED                                     
+REMARK 465 107 SER A   107     NOT LOCATED                                     
+REMARK 465 108 SER A   108     NOT LOCATED                                     
+REMARK 465 109 SER A   109     NOT LOCATED                                     
+REMARK 465 110 SER A   110     NOT LOCATED                                     
+REMARK 465 111 SER A   111     NOT LOCATED                                     
+REMARK 465 112 SER A   112     NOT LOCATED                                     
+REMARK 465 113 SER A   113     NOT LOCATED                                     
+REMARK 465 114 SER A   114     NOT LOCATED                                     
+REMARK 465 115 SER A   115     NOT LOCATED                                     
+REMARK 465 116 SER A   116     NOT LOCATED                                     
+REMARK 465 117 SER A   117     NOT LOCATED                                     
+REMARK 465 118 SER A   118     NOT LOCATED                                     
+REMARK 465 119 SER A   119     NOT LOCATED                                     
+REMARK 500                                                                      
+REMARK 500 GEOMETRY AND STEREOCHEMISTRY                                         
+REMARK 500 THE COVALENT GEOMETRY OF THE FOLLOWING RESIDUES                      
+REMARK 500 HAVE UNUSUAL BOND LENGTHS:                                           
+REMARK 500                                                                      
+REMARK 500 ALTHOUGH THESE GEOMETRICAL VALUES ARE UNUSUAL, THEY ARE              
+REMARK 500 CHEMICALLY PLAUSIBLE.                                                
+REMARK 500                                                                      
+REMARK 500  M RES CSSEQI                                                        
+REMARK 500  1 HIS A  90    CG  CD2 NE2  1.40  1.40  1.40  109.0  109.0  109.0   
+REMARK 500  2 HIS A  90    ND1 CE1 NE2  1.40  1.40  1.40  109.0  109.0  109.0   
+REMARK 500                                                                      
+REMARK 500 GEOMETRY AND STEREOCHEMISTRY                                         
+REMARK 500 THE FOLLOWING ATOMS HAVE NEGATIVE B FACTORS.  THIS IS                
+REMARK 500 UNUSUAL BUT NOT INCORRECT.  IT HAPPENS WHEN THE ATOMIC               
+REMARK 500 TEMPERATURE FACTOR IS LESS THAN THE VALUE ASSIGNED TO                
+REMARK 500 THE OVERALL SCALING OF THE B VALUES.                                 
+REMARK 500                                                                      
+REMARK 500  M RES CSSEQI                                                        
+REMARK 500  1 HEM A  601    FE   C   1A   1B   2A   2B   3A   3B   4A   4B      
+REMARK 500  1 HEM A  601    C   CHA  CHB  CHC  CHD   NA   NB   NC   ND          
+REMARK 500  1 HEM A  601    C1A  C2A  C3A  C4A  C1B  C2B  C3B  C4B              
+REMARK 500  1 HEM A  601    C1C  C2C  C3C  C4C  C1D  C2D  C3D  C4D              
+REMARK 500  1 HEM A  601    CMA  CMB  CMC  CMD  CGA  O1A  O2A  CGB              
+REMARK 500  1 HEM A  601    O1B  O2B  CGC  O1C  O2C  CGD  O1D  O2D              
+REMARK 500                                                                      
+REMARK 500 GEOMETRY AND STEREOCHEMISTRY                                         
+REMARK 500 STEREOCHEMISTRY OF THE FOLLOWING CHIRAL CENTERS IS                   
+REMARK 500 CORRECT, THOUGH THE CHIRAL VOLUME IS UNUSUAL:                        
+REMARK 500                                                                      
+REMARK 500  M RES CSSEQI                                                        
+REMARK 500  1 ILE A  345    CA                                                  
+REMARK 500  2 ILE A  408    CA                                                  
+REMARK 500  3 ILE A  471    CA                                                  
+REMARK 500  4 ILE A  523    CA                                                  
+REMARK 500  5 LEU A  110    CA                                                  
+REMARK 500  6 LEU A  145    CA                                                  
+REMARK 500  7 LEU A  152    CA                                                  
+REMARK 500  8 LEU A  197    CA                                                  
+REMARK 500  9 LEU A  231    CA                                                  
+REMARK 500 10 LEU A  249    CA                                                  
+REMARK 500 11 LEU A  294    CA                                                  
+REMARK 500 12 LEU A  325    CA                                                  
+REMARK 500 13 LEU A  331    CA                                                  
+REMARK 500 14 LEU A  345    CA                                                  
+REMARK 500 15 LEU A  370    CA                                                  
+REMARK 500 16 LEU A  384    CA                                                  
+REMARK 500 17 LEU A  398    CA                                                  
+REMARK 500 18 LEU A  417    CA                                                  
+REMARK 500 19 LEU A  469    CA                                                  
+REMARK 500 20 LEU A  477    CA                                                  
+REMARK 500 21 LEU A  485    CA                                                  
+REMARK 500 22 LEU A  517    CA                                                  
+REMARK 500 23 LEU A  531    CA                                                  
+REMARK 500 24 LEU A  552    CA                                                  
+REMARK 500 25 LEU A  559    CA                                                  
+REMARK 500 26 LEU A  576    CA                                                  
+REMARK 500 27 THR A  206    CA                                                  
+REMARK 500 28 THR A  212    CA                                                  
+REMARK 500 29 THR A  224    CA                                                  
+REMARK 500 30 THR A  283    CA                                                  
+REMARK 500 31 THR A  316    CA                                                  
+REMARK 500 32 THR A  362    CA                                                  
+REMARK 500 33 THR A  431    CA                                                  
+REMARK 500 34 THR A  436    CA                                                  
+REMARK 500 35 THR A  487    CA                                                  
+REMARK 500 36 THR A  494    CA                                                  
+REMARK 500 37 THR A  541    CA                                                  
+REMARK 500 38 THR A  548    CA                                                  
+REMARK 500 39 VAL A  102    CA                                                  
+REMARK 500 40 VAL A  116    CA                                                  
+REMARK 500 41 VAL A  141    CA                                                  
+REMARK 500 42 VAL A  163    CA                                                  
+REMARK 500 43 VAL A  187    CA                                                  
+REMARK 500 44 VAL A  228    CA                                                  
+REMARK 500 45 VAL A  263    CA                                                  
+REMARK 500 46 VAL A  277    CA                                                  
+REMARK 500 47 VAL A  289    CA                                                  
+REMARK 500 48 VAL A  296    CA                                                  
+REMARK 500 49 VAL A  335    CA                                                  
+REMARK 500 50 VAL A  349    CA                                                  
+REMARK 500 51 VAL A  386    CA                                                  
+REMARK 500 52 VAL A  401    CA                                                  
+REMARK 500 53 VAL A  423    CA                                                  
+REMARK 500 54 VAL A  445    CA                                                  
+REMARK 500 55 VAL A  456    CA                                                  
+REMARK 500 56 VAL A  463    CA                                                  
+REMARK 500 57 VAL A  481    CA                                                  
+REMARK 500 58 VAL A  501    CA                                                  
+REMARK 500 59 VAL A  514    CA                                                  
+REMARK 500 60 VAL A  524    CA                                                  
+REMARK 500 61 VAL A  536    CA                                                  
+REMARK 500 62 VAL A  563    CA                                                  
+REMARK 500 63 VAL A  570    CA                                                  
+REMARK 500 64 VAL A  586    CA                                                  
+REMARK 500 65 VAL A  592    CA                                                  
+REMARK 500                                                                      
+REMARK 500 GEOMETRY AND STEREOCHEMISTRY                                         
+REMARK 500 THE FOLLOWING ATOMS ARE IN CLOSE CONTACT.                            
+REMARK 500 THIS IS UNUSUAL BUT NOT INCORRECT.  IT HAPPENS WHEN                  
+REMARK 500 THE ATOMS ARE PART OF A HYDROGEN BOND OR ION PAIR.                   
+REMARK 500                                                                      
+REMARK 500  M RES CSSEQI                                                        
+REMARK 500  1 HIS A  90    NE2  HEM A  601  FE   2.20                           
+REMARK 500  2 HIS A  388  NE2  HEM A  601  FE   2.20                            
+REMARK 500                                                                      
+REMARK 500 GEOMETRY AND STEREOCHEMISTRY                                         
+REMARK 500 THE FOLLOWING RESIDUES HAVE UNUSUAL PEPTIDE OMEGA ANGLES:            
+REMARK 500                                                                      
+REMARK 500  M RES CSSEQI                                                        
+REMARK 500  1 GLY A  186    OMEGA= 162.0                                        
+REMARK 500  2 GLY A  220    OMEGA= 162.0                                        
+REMARK 500  3 GLY A  333    OMEGA= 162.0                                        
+REMARK 500  4 GLY A  337    OMEGA= 162.0                                        
+REMARK 500  5 GLY A  526    OMEGA= 162.0                                        
+REMARK 500  6 GLY A  580    OMEGA= 162.0                                        
+REMARK 500  7 SER A  126    OMEGA= 162.0                                        
+REMARK 500  8 SER A  339    OMEGA= 162.0                                        
+REMARK 500  9 SER A  469    OMEGA= 162.0                                        
+REMARK 500 10 SER A  530    OMEGA= 162.0                                        
+REMARK 500                                                                      
+REMARK 500 GEOMETRY AND STEREOCHEMISTRY                                         
+REMARK 500 THE FOLLOWING RESIDUES HAVE UNUSUAL PHI/PSI ANGLES:                  
+REMARK 500                                                                      
+REMARK 500  M RES CSSEQI                                                        
+REMARK 500  1 ALA A  202    PHI=-120.0  PSI= 150.0                              
+REMARK 500  2 ALA A  527    PHI=-120.0  PSI= 150.0                              
+REMARK 500  3 ASP A  136    PHI=-120.0  PSI= 150.0                              
+REMARK 500  4 ASP A  199    PHI=-120.0  PSI= 150.0                              
+REMARK 500  5 ASP A  270    PHI=-120.0  PSI= 150.0                              
+REMARK 500  6 ASP A  337    PHI=-120.0  PSI= 150.0                              
+REMARK 500  7 GLU A  465    PHI=-120.0  PSI= 150.0                              
+REMARK 500  8 GLU A  475    PHI=-120.0  PSI= 150.0                              
+REMARK 500  9 GLU A  544    PHI=-120.0  PSI= 150.0                              
+REMARK 500 10 GLN A  289    PHI=-120.0  PSI= 150.0                              
+REMARK 500 11 HIS A  193    PHI=-120.0  PSI= 150.0                              
+REMARK 500 12 HIS A  207    PHI=-120.0  PSI= 150.0                              
+REMARK 500 13 HIS A  278    PHI=-120.0  PSI= 150.0                              
+REMARK 500 14 HIS A  343    PHI=-120.0  PSI= 150.0                              
+REMARK 500 15 HIS A  386    PHI=-120.0  PSI= 150.0                              
+REMARK 500 16 LYS A  115    PHI=-120.0  PSI= 150.0                              
+REMARK 500 17 LYS A  211    PHI=-120.0  PSI= 150.0                              
+REMARK 500 18 LYS A  298    PHI=-120.0  PSI= 150.0                              
+REMARK 500 19 LYS A  346    PHI=-120.0  PSI= 150.0                              
+REMARK 500 20 LYS A  432    PHI=-120.0  PSI= 150.0                              
+REMARK 500 21 LYS A  485    PHI=-120.0  PSI= 150.0                              
+REMARK 500 22 LYS A  541    PHI=-120.0  PSI= 150.0                              
+REMARK 500 23 MET A  113    PHI=-120.0  PSI= 150.0                              
+REMARK 500 24 MET A  162    PHI=-120.0  PSI= 150.0                              
+REMARK 500 25 MET A  229    PHI=-120.0  PSI= 150.0                              
+REMARK 500 26 MET A  306    PHI=-120.0  PSI= 150.0                              
+REMARK 500 27 MET A  363    PHI=-120.0  PSI= 150.0                              
+REMARK 500 28 MET A  394    PHI=-120.0  PSI= 150.0                              
+REMARK 500 29 MET A  447    PHI=-120.0  PSI= 150.0                              
+REMARK 500 30 MET A  508    PHI=-120.0  PSI= 150.0                              
+REMARK 500 31 MET A  522    PHI=-120.0  PSI= 150.0                              
+REMARK 500 32 MET A  537    PHI=-120.0  PSI= 150.0                              
+REMARK 500 33 MET A  554    PHI=-120.0  PSI= 150.0                              
+REMARK 500 34 PHE A  205    PHI=-120.0  PSI= 150.0                              
+REMARK 500 35 PHE A  210    PHI=-120.0  PSI= 150.0                              
+REMARK 500 36 PHE A  367    PHI=-120.0  PSI= 150.0                              
+REMARK 500 37 PHE A  381    PHI=-120.0  PSI= 150.0                              
+REMARK 500 38 PHE A  404    PHI=-120.0  PSI= 150.0                              
+REMARK 500 39 PHE A  429    PHI=-120.0  PSI= 150.0                              
+REMARK 500 40 PHE A  441    PHI=-120.0  PSI= 150.0                              
+REMARK 500 41 PHE A  503    PHI=-120.0  PSI= 150.0                              
+REMARK 500 42 PHE A  518    PHI=-120.0  PSI= 150.0                              
+REMARK 500 43 PHE A  566    PHI=-120.0  PSI= 150.0                              
+REMARK 500 44 SER A  119    PHI=-120.0  PSI= 150.0                              
+REMARK 500 45 SER A  130    PHI=-120.0  PSI= 150.0                              
+REMARK 500 46 SER A  138    PHI=-120.0  PSI= 150.0                              
+REMARK 500 47 SER A  166    PHI=-120.0  PSI= 150.0                              
+REMARK 500 48 SER A  191    PHI=-120.0  PSI= 150.0                              
+REMARK 500 49 SER A  215    PHI=-120.0  PSI= 150.0                              
+REMARK 500 50 SER A  239    PHI=-120.0  PSI= 150.0                              
+REMARK 500 51 SER A  252    PHI=-120.0  PSI= 150.0                              
+REMARK 500 52 SER A  266    PHI=-120.0  PSI= 150.0                              
+REMARK 500 53 SER A  273    PHI=-120.0  PSI= 150.0                              
+REMARK 500 54 SER A  291    PHI=-120.0  PSI= 150.0                              
+REMARK 500 55 SER A  309    PHI=-120.0  PSI= 150.0                              
+REMARK 500 56 SER A  322    PHI=-120.0  PSI= 150.0                              
+REMARK 500 57 SER A  355    PHI=-120.0  PSI= 150.0                              
+REMARK 500 58 SER A  378    PHI=-120.0  PSI= 150.0                              
+REMARK 500 59 SER A  391    PHI=-120.0  PSI= 150.0                              
+REMARK 500 60 SER A  413    PHI=-120.0  PSI= 150.0                              
+REMARK 500 61 SER A  438    PHI=-120.0  PSI= 150.0                              
+REMARK 500 62 SER A  452    PHI=-120.0  PSI= 150.0                              
+REMARK 500 63 SER A  466    PHI=-120.0  PSI= 150.0                              
+REMARK 500 64 SER A  479    PHI=-120.0  PSI= 150.0                              
+REMARK 500 65 SER A  491    PHI=-120.0  PSI= 150.0                              
+REMARK 500 66 SER A  506    PHI=-120.0  PSI= 150.0                              
+REMARK 500 67 SER A  521    PHI=-120.0  PSI= 150.0                              
+REMARK 500 68 SER A  534    PHI=-120.0  PSI= 150.0                              
+REMARK 500 69 SER A  550    PHI=-120.0  PSI= 150.0                              
+REMARK 500 70 SER A  558    PHI=-120.0  PSI= 150.0                              
+REMARK 500 71 SER A  573    PHI=-120.0  PSI= 150.0                              
+REMARK 500 72 SER A  583    PHI=-120.0  PSI= 150.0                              
+REMARK 500 73 TYR A  115    PHI=-120.0  PSI= 150.0                              
+REMARK 500 74 TYR A  130    PHI=-120.0  PSI= 150.0                              
+REMARK 500 75 TYR A  180    PHI=-120.0  PSI= 150.0                              
+REMARK 500 76 TYR A  238    PHI=-120.0  PSI= 150.0                              
+REMARK 500 77 TYR A  274    PHI=-120.0  PSI= 150.0                              
+REMARK 500 78 TYR A  341    PHI=-120.0  PSI= 150.0                              
+REMARK 500 79 TYR A  355    PHI=-120.0  PSI= 150.0                              
+REMARK 500 80 TYR A  371    PHI=-120.0  PSI= 150.0                              
+REMARK 500 81 TYR A  385    PHI=-120.0  PSI= 150.0                              
+REMARK 500 82 TYR A  411    PHI=-120.0  PSI= 150.0                              
+REMARK 500 83 TYR A  424    PHI=-120.0  PSI= 150.0                              
+REMARK 500 84 TYR A  466    PHI=-120.0  PSI= 150.0                              
+REMARK 500 85 TYR A  480    PHI=-120.0  PSI= 150.0                              
+REMARK 500 86 TYR A  495    PHI=-120.0  PSI= 150.0                              
+REMARK 500 87 TYR A  511    PHI=-120.0  PSI= 150.0                              
+REMARK 500 88 TYR A  528    PHI=-120.0  PSI= 150.0                              
+REMARK 500 89 TYR A  545    PHI=-120.0  PSI= 150.0                              
+REMARK 500 90 TYR A  561    PHI=-120.0  PSI= 150.0                              
+REMARK 500 91 TYR A  577    PHI=-120.0  PSI= 150.0                              
+REMARK 500 92 TYR A  587    PHI=-120.0  PSI= 150.0                              
+REMARK 500 93 VAL A  295    PHI=-120.0  PSI= 150.0                              
+REMARK 500 94 VAL A  349    PHI=-120.0  PSI= 150.0                              
+REMARK 500 95 VAL A  389    PHI=-120.0  PSI= 150.0                              
+REMARK 500 96 VAL A  445    PHI=-120.0  PSI= 150.0                              
+REMARK 500 97 VAL A  456    PHI=-120.0  PSI= 150.0                              
+REMARK 500 98 VAL A  489    PHI=-120.0  PSI= 150.0                              
+REMARK 500 99 VAL A  536    PHI=-120.0  PSI= 150.0                              
+REMARK 500 100 VAL A  570    PHI=-120.0  PSI= 150.0                             
+REMARK 500 101 VAL A  592    PHI=-120.0  PSI= 150.0                             
+REMARK 500                                                                      
+REMARK 500 GEOMETRY AND STEREOCHEMISTRY                                         
+REMARK 500 THE FOLLOWING RESIDUES HAVE A WRONG CHIRALITY AT THE CA             
+REMARK 500 ATOM (OR CB FOR THR AND ILE):                                        
+REMARK 500                                                                      
+REMARK 500  M RES CSSEQI                                                        
+REMARK 500  1 ASP A  136    CA                                                  
+REMARK 500  2 ASP A  199    CA                                                  
+REMARK 500  3 ASP A  270    CA                                                  
+REMARK 500  4 ASP A  337    CA                                                  
+REMARK 500  5 GLU A  465    CA                                                  
+REMARK 500  6 GLU A  475    CA                                                  
+REMARK 500  7 GLU A  544    CA                                                  
+REMARK 500  8 GLN A  289    CA                                                  
+REMARK 500  9 HIS A  193    CA                                                  
+REMARK 500 10 HIS A  207    CA                                                  
+REMARK 500 11 HIS A  278    CA                                                  
+REMARK 500 12 HIS A  343    CA                                                  
+REMARK 500 13 HIS A  386    CA                                                  
+REMARK 500 14 LYS A  115    CA                                                  
+REMARK 500 15 LYS A  211    CA                                                  
+REMARK 500 16 LYS A  298    CA                                                  
+REMARK 500 17 LYS A  346    CA                                                  
+REMARK 500 18 LYS A  432    CA                                                  
+REMARK 500 19 LYS A  485    CA                                                  
+REMARK 500 20 LYS A  541    CA                                                  
+REMARK 500 21 MET A  113    CA                                                  
+REMARK 500 22 MET A  162    CA                                                  
+REMARK 500 23 MET A  229    CA                                                  
+REMARK 500 24 MET A  306    CA                                                  
+REMARK 500 25 MET A  363    CA                                                  
+REMARK 500 26 MET A  394    CA                                                  
+REMARK 500 27 MET A  447    CA                                                  
+REMARK 500 28 MET A  508    CA                                                  
+REMARK 500 29 MET A  522    CA                                                  
+REMARK 500 30 MET A  537    CA                                                  
+REMARK 500 31 MET A  554    CA                                                  
+REMARK 500 32 PHE A  205    CA                                                  
+REMARK 500 33 PHE A  210    CA                                                  
+REMARK 500 34 PHE A  367    CA                                                  
+REMARK 500 35 PHE A  381    CA                                                  
+REMARK 500 36 PHE A  404    CA                                                  
+REMARK 500 37 PHE A  429    CA                                                  
+REMARK 500 38 PHE A  441    CA                                                  
+REMARK 500 39 PHE A  503    CA                                                  
+REMARK 500 40 PHE A  518    CA                                                  
+REMARK 500 41 PHE A  566    CA                                                  
+REMARK 500 42 SER A  119    CA                                                  
+REMARK 500 43 SER A  130    CA                                                  
+REMARK 500 44 SER A  138    CA                                                  
+REMARK 500 45 SER A  166    CA                                                  
+REMARK 500 46 SER A  191    CA                                                  
+REMARK 500 47 SER A  215    CA                                                  
+REMARK 500 48 SER A  239    CA                                                  
+REMARK 500 49 SER A  252    CA                                                  
+REMARK 500 50 SER A  266    CA                                                  
+REMARK 500 51 SER A  273    CA                                                  
+REMARK 500 52 SER A  291    CA                                                  
+REMARK 500 53 SER A  309    CA                                                  
+REMARK 500 54 SER A  322    CA                                                  
+REMARK 500 55 SER A  355    CA                                                  
+REMARK 500 56 SER A  378    CA                                                  
+REMARK 500 57 SER A  391    CA                                                  
+REMARK 500 58 SER A  413    CA                                                  
+REMARK 500 59 SER A  438    CA                                                  
+REMARK 500 60 SER A  452    CA                                                  
+REMARK 500 61 SER A  466    CA                                                  
+REMARK 500 62 SER A  479    CA                                                  
+REMARK 500 63 SER A  491    CA                                                  
+REMARK 500 64 SER A  506    CA                                                  
+REMARK 500 65 SER A  521    CA                                                  
+REMARK 500 66 SER A  534    CA                                                  
+REMARK 500 67 SER A  550    CA                                                  
+REMARK 500 68 SER A  558    CA                                                  
+REMARK 500 69 SER A  573    CA                                                  
+REMARK 500 70 SER A  583    CA                                                  
+REMARK 500 71 TYR A  115    CA                                                  
+REMARK 500 72 TYR A  130    CA                                                  
+REMARK 500 73 TYR A  180    CA                                                  
+REMARK 500 74 TYR A  238    CA                                                  
+REMARK 500 75 TYR A  274    CA                                                  
+REMARK 500 76 TYR A  341    CA                                                  
+REMARK 500 77 TYR A  355    CA                                                  
+REMARK 500 78 TYR A  371    CA                                                  
+REMARK 500 79 TYR A  385    CA                                                  
+REMARK 500 80 TYR A  411    CA                                                  
+REMARK 500 81 TYR A  424    CA                                                  
+REMARK 500 82 TYR A  466    CA                                                  
+REMARK 500 83 TYR A  480    CA                                                  
+REMARK 500 84 TYR A  495    CA                                                  
+REMARK 500 85 TYR A  511    CA                                                  
+REMARK 500 86 TYR A  528    CA                                                  
+REMARK 500 87 TYR A  545    CA                                                  
+REMARK 500 88 TYR A  561    CA                                                  
+REMARK 500 89 TYR A  577    CA                                                  
+REMARK 500 90 TYR A  587    CA                                                  
+REMARK 500 91 VAL A  295    CA                                                  
+REMARK 500 92 VAL A  349    CA                                                  
+REMARK 500 93 VAL A  389    CA                                                  
+REMARK 500 94 VAL A  445    CA                                                  
+REMARK 500 95 VAL A  456    CA                                                  
+REMARK 500 96 VAL A  489    CA                                                  
+REMARK 500 97 VAL A  536    CA                                                  
+REMARK 500 98 VAL A  570    CA                                                  
+REMARK 500 99 VAL A  592    CA                                                  
+REMARK 500                                                                      
+REMARK 500 GEOMETRY AND STEREOCHEMISTRY                                         
+REMARK 500 THE FOLLOWING RESIDUES HAVE UNUSUAL SIDE CHAIN CHI ANGLES:           
+REMARK 500                                                                      
+REMARK 500  M RES CSSEQI                                                        
+REMARK 500  1 ARG A  120    CHI1= -60.0  CHI2= 180.0  CHI3= 180.0               
+REMARK 500  2 ARG A  143    CHI1= -60.0  CHI2= 180.0  CHI3= 180.0               
+REMARK 500  3 ARG A  252    CHI1= -60.0  CHI2= 180.0  CHI3= 180.0               
+REMARK 500  4 ARG A  332    CHI1= -60.0  CHI2= 180.0  CHI3= 180.0               
+REMARK 500  5 ARG A  499    CHI1= -60.0  CHI2= 180.0  CHI3= 180.0               
+REMARK 500  6 ASN A  143    CHI1= -60.0  CHI2= 180.0                            
+REMARK 500  7 ASN A  193    CHI1= -60.0  CHI2= 180.0                            
+REMARK 500  8 ASN A  382    CHI1= -60.0  CHI2= 180.0                            
+REMARK 500  9 ASN A  414    CHI1= -60.0  CHI2= 180.0                            
+REMARK 500 10 ASP A  136    CHI1= -60.0  CHI2= 180.0                            
+REMARK 500 11 ASP A  199    CHI1= -60.0  CHI2= 180.0                            
+REMARK 500 12 ASP A  270    CHI1= -60.0  CHI2= 180.0                            
+REMARK 500 13 ASP A  337    CHI1= -60.0  CHI2= 180.0                            
+REMARK 500 14 GLU A  465    CHI1= -60.0  CHI2= 180.0  CHI3= 180.0               
+REMARK 500 15 GLU A  475    CHI1= -60.0  CHI2= 180.0  CHI3= 180.0               
+REMARK 500 16 GLU A  544    CHI1= -60.0  CHI2= 180.0  CHI3= 180.0               
+REMARK 500 17 GLN A  289    CHI1= -60.0  CHI2= 180.0  CHI3= 180.0               
+REMARK 500 18 HIS A  193    CHI1= -60.0  CHI2= 180.0                            
+REMARK 500 19 HIS A  207    CHI1= -60.0  CHI2= 180.0                            
+REMARK 500 20 HIS A  278    CHI1= -60.0  CHI2= 180.0                            
+REMARK 500 21 HIS A  343    CHI1= -60.0  CHI2= 180.0                            
+REMARK 500 22 HIS A  386    CHI1= -60.0  CHI2= 180.0                            
+REMARK 500 23 ILE A  345    CHI1= -60.0  CHI2= 180.0                            
+REMARK 500 24 ILE A  408    CHI1= -60.0  CHI2= 180.0                            
+REMARK 500 25 ILE A  471    CHI1= -60.0  CHI2= 180.0                            
+REMARK 500 26 ILE A  523    CHI1= -60.0  CHI2= 180.0                            
+REMARK 500 27 LEU A  110    CHI1= -60.0  CHI2= 180.0                            
+REMARK 500 28 LEU A  145    CHI1= -60.0  CHI2= 180.0                            
+REMARK 500 29 LEU A  152    CHI1= -60.0  CHI2= 180.0                            
+REMARK 500 30 LEU A  197    CHI1= -60.0  CHI2= 180.0                            
+REMARK 500 31 LEU A  231    CHI1= -60.0  CHI2= 180.0                            
+REMARK 500 32 LEU A  249    CHI1= -60.0  CHI2= 180.0                            
+REMARK 500 33 LEU A  294    CHI1= -60.0  CHI2= 180.0                            
+REMARK 500 34 LEU A  325    CHI1= -60.0  CHI2= 180.0                            
+REMARK 500 35 LEU A  331    CHI1= -60.0  CHI2= 180.0                            
+REMARK 500 36 LEU A  345    CHI1= -60.0  CHI2= 180.0                            
+REMARK 500 37 LEU A  370    CHI1= -60.0  CHI2= 180.0                            
+REMARK 500 38 LEU A  384    CHI1= -60.0  CHI2= 180.0                            
+REMARK 500 39 LEU A  398    CHI1= -60.0  CHI2= 180.0                            
+REMARK 500 40 LEU A  417    CHI1= -60.0  CHI2= 180.0                            
+REMARK 500 41 LEU A  469    CHI1= -60.0  CHI2= 180.0                            
+REMARK 500 42 LEU A  477    CHI1= -60.0  CHI2= 180.0                            
+REMARK 500 43 LEU A  485    CHI1= -60.0  CHI2= 180.0                            
+REMARK 500 44 LEU A  517    CHI1= -60.0  CHI2= 180.0                            
+REMARK 500 45 LEU A  531    CHI1= -60.0  CHI2= 180.0                            
+REMARK 500 46 LEU A  552    CHI1= -60.0  CHI2= 180.0                            
+REMARK 500 47 LEU A  559    CHI1= -60.0  CHI2= 180.0                            
+REMARK 500 48 LEU A  576    CHI1= -60.0  CHI2= 180.0                            
+REMARK 500 49 LYS A  115    CHI1= -60.0  CHI2= 180.0  CHI3= 180.0               
+REMARK 500 50 LYS A  211    CHI1= -60.0  CHI2= 180.0  CHI3= 180.0               
+REMARK 500 51 LYS A  298    CHI1= -60.0  CHI2= 180.0  CHI3= 180.0               
+REMARK 500 52 LYS A  346    CHI1= -60.0  CHI2= 180.0  CHI3= 180.0               
+REMARK 500 53 LYS A  432    CHI1= -60.0  CHI2= 180.0  CHI3= 180.0               
+REMARK 500 54 LYS A  485    CHI1= -60.0  CHI2= 180.0  CHI3= 180.0               
+REMARK 500 55 LYS A  541    CHI1= -60.0  CHI2= 180.0  CHI3= 180.0               
+REMARK 500 56 MET A  113    CHI1= -60.0  CHI2= 180.0  CHI3= 180.0               
+REMARK 500 57 MET A  162    CHI1= -60.0  CHI2= 180.0  CHI3= 180.0               
+REMARK 500 58 MET A  229    CHI1= -60.0  CHI2= 180.0  CHI3= 180.0               
+REMARK 500 59 MET A  306    CHI1= -60.0  CHI2= 180.0  CHI3= 180.0               
+REMARK 500 60 MET A  363    CHI1= -60.0  CHI2= 180.0  CHI3= 180.0               
+REMARK 500 61 MET A  394    CHI1= -60.0  CHI2= 180.0  CHI3= 180.0               
+REMARK 500 62 MET A  447    CHI1= -60.0  CHI2= 180.0  CHI3= 180.0               
+REMARK 500 63 MET A  508    CHI1= -60.0  CHI2= 180.0  CHI3= 180.0               
+REMARK 500 64 MET A  522    CHI1= -60.0  CHI2= 180.0  CHI3= 180.0               
+REMARK 500 65 MET A  537    CHI1= -60.0  CHI2= 180.0  CHI3= 180.0               
+REMARK 500 66 MET A  554    CHI1= -60.0  CHI2= 180.0  CHI3= 180.0               
+REMARK 500 67 PHE A  205    CHI1= -60.0  CHI2= 180.0                            
+REMARK 500 68 PHE A  210    CHI1= -60.0  CHI2= 180.0                            
+REMARK 500 69 PHE A  367    CHI1= -60.0  CHI2= 180.0                            
+REMARK 500 70 PHE A  381    CHI1= -60.0  CHI2= 180.0                            
+REMARK 500 71 PHE A  404    CHI1= -60.0  CHI2= 180.0                            
+REMARK 500 72 PHE A  429    CHI1= -60.0  CHI2= 180.0                            
+REMARK 500 73 PHE A  441    CHI1= -60.0  CHI2= 180.0                            
+REMARK 500 74 PHE A  503    CHI1= -60.0  CHI2= 180.0                            
+REMARK 500 75 PHE A  518    CHI1= -60.0  CHI2= 180.0                            
+REMARK 500 76 PHE A  566    CHI1= -60.0  CHI2= 180.0                            
+REMARK 500 77 SER A  119    CHI1= -60.0                                         
+REMARK 500 78 SER A  130    CHI1= -60.0                                         
+REMARK 500 79 SER A  138    CHI1= -60.0                                         
+REMARK 500 80 SER A  166    CHI1= -60.0                                         
+REMARK 500 81 SER A  191    CHI1= -60.0                                         
+REMARK 500 82 SER A  215    CHI1= -60.0                                         
+REMARK 500 83 SER A  239    CHI1= -60.0                                         
+REMARK 500 84 SER A  252    CHI1= -60.0                                         
+REMARK 500 85 SER A  266    CHI1= -60.0                                         
+REMARK 500 86 SER A  273    CHI1= -60.0                                         
+REMARK 500 87 SER A  291    CHI1= -60.0                                         
+REMARK 500 88 SER A  309    CHI1= -60.0                                         
+REMARK 500 89 SER A  322    CHI1= -60.0                                         
+REMARK 500 90 SER A  355    CHI1= -60.0                                         
+REMARK 500 91 SER A  378    CHI1= -60.0                                         
+REMARK 500 92 SER A  391    CHI1= -60.0                                         
+REMARK 500 93 SER A  413    CHI1= -60.0                                         
+REMARK 500 94 SER A  438    CHI1= -60.0                                         
+REMARK 500 95 SER A  452    CHI1= -60.0                                         
+REMARK 500 96 SER A  466    CHI1= -60.0                                         
+REMARK 500 97 SER A  479    CHI1= -60.0                                         
+REMARK 500 98 SER A  491    CHI1= -60.0                                         
+REMARK 500 99 SER A  506    CHI1= -60.0                                         
+REMARK 500 100 SER A  521    CHI1= -60.0                                        
+REMARK 500 101 SER A  534    CHI1= -60.0                                        
+REMARK 500 102 SER A  550    CHI1= -60.0                                        
+REMARK 500 103 SER A  558    CHI1= -60.0                                        
+REMARK 500 104 SER A  573    CHI1= -60.0                                        
+REMARK 500 105 SER A  583    CHI1= -60.0                                        
+REMARK 500 106 THR A  206    CHI1= -60.0                                        
+REMARK 500 107 THR A  212    CHI1= -60.0                                        
+REMARK 500 108 THR A  224    CHI1= -60.0                                        
+REMARK 500 109 THR A  283    CHI1= -60.0                                        
+REMARK 500 110 THR A  316    CHI1= -60.0                                        
+REMARK 500 111 THR A  362    CHI1= -60.0                                        
+REMARK 500 112 THR A  431    CHI1= -60.0                                        
+REMARK 500 113 THR A  436    CHI1= -60.0                                        
+REMARK 500 114 THR A  487    CHI1= -60.0                                        
+REMARK 500 115 THR A  494    CHI1= -60.0                                        
+REMARK 500 116 THR A  541    CHI1= -60.0                                        
+REMARK 500 117 THR A  548    CHI1= -60.0                                        
+REMARK 500 118 TYR A  115    CHI1= -60.0  CHI2= 180.0                            
+REMARK 500 119 TYR A  130    CHI1= -60.0  CHI2= 180.0                            
+REMARK 500 120 TYR A  180    CHI1= -60.0  CHI2= 180.0                            
+REMARK 500 121 TYR A  238    CHI1= -60.0  CHI2= 180.0                            
+REMARK 500 122 TYR A  274    CHI1= -60.0  CHI2= 180.0                            
+REMARK 500 123 TYR A  341    CHI1= -60.0  CHI2= 180.0                            
+REMARK 500 124 TYR A  355    CHI1= -60.0  CHI2= 180.0                            
+REMARK 500 125 TYR A  371    CHI1= -60.0  CHI2= 180.0                            
+REMARK 500 126 TYR A  385    CHI1= -60.0  CHI2= 180.0                            
+REMARK 500 127 TYR A  411    CHI1= -60.0  CHI2= 180.0                            
+REMARK 500 128 TYR A  424    CHI1= -60.0  CHI2= 180.0                            
+REMARK 500 129 TYR A  466    CHI1= -60.0  CHI2= 180.0                            
+REMARK 500 130 TYR A  480    CHI1= -60.0  CHI2= 180.0                            
+REMARK 500 131 TYR A  495    CHI1= -60.0  CHI2= 180.0                            
+REMARK 500 132 TYR A  511    CHI1= -60.0  CHI2= 180.0                            
+REMARK 500 133 TYR A  528    CHI1= -60.0  CHI2= 180.0                            
+REMARK 500 134 TYR A  545    CHI1= -60.0  CHI2= 180.0                            
+REMARK 500 135 TYR A  561    CHI1= -60.0  CHI2= 180.0                            
+REMARK 500 136 TYR A  577    CHI1= -60.0  CHI2= 180.0                            
+REMARK 500 137 TYR A  587    CHI1= -60.0  CHI2= 180.0                            
+REMARK 500 138 VAL A  102    CHI1= -60.0                                        
+REMARK 500 139 VAL A  116    CHI1= -60.0                                        
+REMARK 500 140 VAL A  141    CHI1= -60.0                                        
+REMARK 500 141 VAL A  163    CHI1= -60.0                                        
+REMARK 500 142 VAL A  187    CHI1= -60.0                                        
+REMARK 500 143 VAL A  228    CHI1= -60.0                                        
+REMARK 500 144 VAL A  263    CHI1= -60.0                                        
+REMARK 500 145 VAL A  277    CHI1= -60.0                                        
+REMARK 500 146 VAL A  289    CHI1= -60.0                                        
+REMARK 500 147 VAL A  296    CHI1= -60.0                                        
+REMARK 500 148 VAL A  335    CHI1= -60.0                                        
+REMARK 500 149 VAL A  349    CHI1= -60.0                                        
+REMARK 500 150 VAL A  386    CHI1= -60.0                                        
+REMARK 500 151 VAL A  401    CHI1= -60.0                                        
+REMARK 500 152 VAL A  423    CHI1= -60.0                                        
+REMARK 500 153 VAL A  445    CHI1= -60.0                                        
+REMARK 500 154 VAL A  456    CHI1= -60.0                                        
+REMARK 500 155 VAL A  463    CHI1= -60.0                                        
+REMARK 500 156 VAL A  481    CHI1= -60.0                                        
+REMARK 500 157 VAL A  501    CHI1= -60.0                                        
+REMARK 500 158 VAL A  514    CHI1= -60.0                                        
+REMARK 500 159 VAL A  524    CHI1= -60.0                                        
+REMARK 500 160 VAL A  536    CHI1= -60.0                                        
+REMARK 500 161 VAL A  563    CHI1= -60.0                                        
+REMARK 500 162 VAL A  570    CHI1= -60.0                                        
+REMARK 500 163 VAL A  586    CHI1= -60.0                                        
+REMARK 500 164 VAL A  592    CHI1= -60.0                                        
+REMARK 500                                                                      
+REMARK 500 GEOMETRY AND STEREOCHEMISTRY                                         
+REMARK 500 THE FOLLOWING RESIDUES HAVE UNUSUAL MAIN CHAIN BOND LENGTHS:         
+REMARK 500                                                                      
+REMARK 500  M RES CSSEQI                                                        
+REMARK 500  1 GLY A  186    N  -CA  1.50  CA -C   1.50  C  -N   1.40            
+REMARK 500  2 GLY A  220    N  -CA  1.50  CA -C   1.50  C  -N   1.40            
+REMARK 500  3 GLY A  333    N  -CA  1.50  CA -C   1.50  C  -N   1.40            
+REMARK 500  4 GLY A  337    N  -CA  1.50  CA -C   1.50  C  -N   1.40            
+REMARK 500  5 GLY A  526    N  -CA  1.50  CA -C   1.50  C  -N   1.40            
+REMARK 500  6 GLY A  580    N  -CA  1.50  CA -C   1.50  C  -N   1.40            
+REMARK 500  7 SER A  126    N  -CA  1.50  CA -C   1.50  C  -N   1.40            
+REMARK 500  8 SER A  339    N  -CA  1.50  CA -C   1.50  C  -N   1.40            
+REMARK 500  9 SER A  469    N  -CA  1.50  CA -C   1.50  C  -N   1.40            
+REMARK 500 10 SER A  530    N  -CA  1.50  CA -C   1.50  C  -N   1.40            
+REMARK 500                                                                      
+REMARK 500 GEOMETRY AND STEREOCHEMISTRY                                         
+REMARK 500 THE FOLLOWING RESIDUES HAVE UNUSUAL MAIN CHAIN BOND ANGLES:          
+REMARK 500                                                                      
+REMARK 500  M RES CSSEQI                                                        
+REMARK 500  1 ALA A  202    N  -CA -C   110.0  CA -C  -N   120.0                
+REMARK 500  2 ALA A  527    N  -CA -C   110.0  CA -C  -N   120.0                
+REMARK 500  3 ASP A  136    N  -CA -C   110.0  CA -C  -N   120.0                
+REMARK 500  4 ASP A  199    N  -CA -C   110.0  CA -C  -N   120.0                
+REMARK 500  5 ASP A  270    N  -CA -C   110.0  CA -C  -N   120.0                
+REMARK 500  6 ASP A  337    N  -CA -C   110.0  CA -C  -N   120.0                
+REMARK 500  7 GLU A  465    N  -CA -C   110.0  CA -C  -N   120.0                
+REMARK 500  8 GLU A  475    N  -CA -C   110.0  CA -C  -N   120.0                
+REMARK 500  9 GLU A  544    N  -CA -C   110.0  CA -C  -N   120.0                
+REMARK 500 10 GLN A  289    N  -CA -C   110.0  CA -C  -N   120.0                
+REMARK 500 11 HIS A  193    N  -CA -C   110.0  CA -C  -N   120.0                
+REMARK 500 12 HIS A  207    N  -CA -C   110.0  CA -C  -N   120.0                
+REMARK 500 13 HIS A  278    N  -CA -C   110.0  CA -C  -N   120.0                
+REMARK 500 14 HIS A  343    N  -CA -C   110.0  CA -C  -N   120.0                
+REMARK 500 15 HIS A  386    N  -CA -C   110.0  CA -C  -N   120.0                
+REMARK 500 16 LYS A  115    N  -CA -C   110.0  CA -C  -N   120.0                
+REMARK 500 17 LYS A  211    N  -CA -C   110.0  CA -C  -N   120.0                
+REMARK 500 18 LYS A  298    N  -CA -C   110.0  CA -C  -N   120.0                
+REMARK 500 19 LYS A  346    N  -CA -C   110.0  CA -C  -N   120.0                
+REMARK 500 20 LYS A  432    N  -CA -C   110.0  CA -C  -N   120.0                
+REMARK 500 21 LYS A  485    N  -CA -C   110.0  CA -C  -N   120.0                
+REMARK 500 22 LYS A  541    N  -CA -C   110.0  CA -C  -N   120.0                
+REMARK 500 23 MET A  113    N  -CA -C   110.0  CA -C  -N   120.0                
+REMARK 500 24 MET A  162    N  -CA -C   110.0  CA -C  -N   120.0                
+REMARK 500 25 MET A  229    N  -CA -C   110.0  CA -C  -N   120.0                
+REMARK 500 26 MET A  306    N  -CA -C   110.0  CA -C  -N   120.0                
+REMARK 500 27 MET A  363    N  -CA -C   110.0  CA -C  -N   120.0                
+REMARK 500 28 MET A  394    N  -CA -C   110.0  CA -C  -N   120.0                
+REMARK 500 29 MET A  447    N  -CA -C   110.0  CA -C  -N   120.0                
+REMARK 500 30 MET A  508    N  -CA -C   110.0  CA -C  -N   120.0                
+REMARK 500 31 MET A  522    N  -CA -C   110.0  CA -C  -N   120.0                
+REMARK 500 32 MET A  537    N  -CA -C   110.0  CA -C  -N   120.0                
+REMARK 500 33 MET A  554    N  -CA -C   110.0  CA -C  -N   120.0                
+REMARK 500 34 PHE A  205    N  -CA -C   110.0  CA -C  -N   120.0                
+REMARK 500 35 PHE A  210    N  -CA -C   110.0  CA -C  -N   120.0                
+REMARK 500 36 PHE A  367    N  -CA -C   110.0  CA -C  -N   120.0                
+REMARK 500 37 PHE A  381    N  -CA -C   110.0  CA -C  -N   120.0                
+REMARK 500 38 PHE A  404    N  -CA -C   110.0  CA -C  -N   120.0                
+REMARK 500 39 PHE A  429    N  -CA -C   110.0  CA -C  -N   120.0                
+REMARK 500 40 PHE A  441    N  -CA -C   110.0  CA -C  -N   120.0                
+REMARK 500 41 PHE A  503    N  -CA -C   110.0  CA -C  -N   120.0                
+REMARK 500 42 PHE A  518    N  -CA -C   110.0  CA -C  -N   120.0                
+REMARK 500 43 PHE A  566    N  -CA -C   110.0  CA -C  -N   120.0                
+REMARK 500 44 SER A  119    N  -CA -C   110.0  CA -C  -N   120.0                
+REMARK 500 45 SER A  130    N  -CA -C   110.0  CA -C  -N   120.0                
+REMARK 500 46 SER A  138    N  -CA -C   110.0  CA -C  -N   120.0                
+REMARK 500 47 SER A  166    N  -CA -C   110.0  CA -C  -N   120.0                
+REMARK 500 48 SER A  191    N  -CA -C   110.0  CA -C  -N   120.0                
+REMARK 500 49 SER A  215    N  -CA -C   110.0  CA -C  -N   120.0                
+REMARK 500 50 SER A  239    N  -CA -C   110.0  CA -C  -N   120.0                
+REMARK 500 51 SER A  252    N  -CA -C   110.0  CA -C  -N   120.0                
+REMARK 500 52 SER A  266    N  -CA -C   110.0  CA -C  -N   120.0                
+REMARK 500 53 SER A  273    N  -CA -C   110.0  CA -C  -N   120.0                
+REMARK 500 54 SER A  291    N  -CA -C   110.0  CA -C  -N   120.0                
+REMARK 500 55 SER A  309    N  -CA -C   110.0  CA -C  -N   120.0                
+REMARK 500 56 SER A  322    N  -CA -C   110.0  CA -C  -N   120.0                
+REMARK 500 57 SER A  355    N  -CA -C   110.0  CA -C  -N   120.0                
+REMARK 500 58 SER A  378    N  -CA -C   110.0  CA -C  -N   120.0                
+REMARK 500 59 SER A  391    N  -CA -C   110.0  CA -C  -N   120.0                
+REMARK 500 60 SER A  413    N  -CA -C   110.0  CA -C  -N   120.0                
+REMARK 500 61 SER A  438    N  -CA -C   110.0  CA -C  -N   120.0                
+REMARK 500 62 SER A  452    N  -CA -C   110.0  CA -C  -N   120.0                
+REMARK 500 63 SER A  466    N  -CA -C   110.0  CA -C  -N   120.0                
+REMARK 500 64 SER A  479    N  -CA -C   110.0  CA -C  -N   120.0                
+REMARK 500 65 SER A  491    N  -CA -C   110.0  CA -C  -N   120.0                
+REMARK 500 66 SER A  506    N  -CA -C   110.0  CA -C  -N   120.0                
+REMARK 500 67 SER A  521    N  -CA -C   110.0  CA -C  -N   120.0                
+REMARK 500 68 SER A  534    N  -CA -C   110.0  CA -C  -N   120.0                
+REMARK 500 69 SER A  550    N  -CA -C   110.0  CA -C  -N   120.0                
+REMARK 500 70 SER A  558    N  -CA -C   110.0  CA -C  -N   120.0                
+REMARK 500 71 SER A  573    N  -CA -C   110.0  CA -C  -N   120.0                
+REMARK 500 72 SER A  583    N  -CA -C   110.0  CA -C  -N   120.0                
+REMARK 500 73 TYR A  115    N  -CA -C   110.0  CA -C  -N   120.0                
+REMARK 500 74 TYR A  130    N  -CA -C   110.0  CA -C  -N   120.0                
+REMARK 500 75 TYR A  180    N  -CA -C   110.0  CA -C  -N   120.0                
+REMARK 500 76 TYR A  238    N  -CA -C   110.0  CA -C  -N   120.0                
+REMARK 500 77 TYR A  274    N  -CA -C   110.0  CA -C  -N   120.0                
+REMARK 500 78 TYR A  341    N  -CA -C   110.0  CA -C  -N   120.0                
+REMARK 500 79 TYR A  355    N  -CA -C   110.0  CA -C  -N   120.0                
+REMARK 500 80 TYR A  371    N  -CA -C   110.0  CA -C  -N   120.0                
+REMARK 500 81 TYR A  385    N  -CA -C   110.0  CA -C  -N   120.0                
+REMARK 500 82 TYR A  411    N  -CA -C   110.0  CA -C  -N   120.0                
+REMARK 500 83 TYR A  424    N  -CA -C   110.0  CA -C  -N   120.0                
+REMARK 500 84 TYR A  466    N  -CA -C   110.0  CA -C  -N   120.0                
+REMARK 500 85 TYR A  480    N  -CA -C   110.0  CA -C  -N   120.0                
+REMARK 500 86 TYR A  495    N  -CA -C   110.0  CA -C  -N   120.0                
+REMARK 500 87 TYR A  511    N  -CA -C   110.0  CA -C  -N   120.0                
+REMARK 500 88 TYR A  528    N  -CA -C   110.0  CA -C  -N   120.0                
+REMARK 500 89 TYR A  545    N  -CA -C   110.0  CA -C  -N   120.0                
+REMARK 500 90 TYR A  561    N  -CA -C   110.0  CA -C  -N   120.0                
+REMARK 500 91 TYR A  577    N  -CA -C   110.0  CA -C  -N   120.0                
+REMARK 500 92 TYR A  587    N  -CA -C   110.0  CA -C  -N   120.0                
+REMARK 500 93 VAL A  295    N  -CA -C   110.0  CA -C  -N   120.0                
+REMARK 500 94 VAL A  349    N  -CA -C   110.0  CA -C  -N   120.0                
+REMARK 500 95 VAL A  389    N  -CA -C   110.0  CA -C  -N   120.0                
+REMARK 500 96 VAL A  445    N  -CA -C   110.0  CA -C  -N   120.0                
+REMARK 500 97 VAL A  456    N  -CA -C   110.0  CA -C  -N   120.0                
+REMARK 500 98 VAL A  489    N  -CA -C   110.0  CA -C  -N   120.0                
+REMARK 500 99 VAL A  536    N  -CA -C   110.0  CA -C  -N   120.0                
+REMARK 500 100 VAL A  570    N  -CA -C   110.0  CA -C  -N   120.0               
+REMARK 500 101 VAL A  592    N  -CA -C   110.0  CA -C  -N   120.0               
+REMARK 500                                                                      
+REMARK 500 GEOMETRY AND STEREOCHEMISTRY                                         
+REMARK 500 THE FOLLOWING RESIDUES HAVE UNUSUAL MAIN CHAIN PLANARITY:            
+REMARK 500                                                                      
+REMARK 500  M RES CSSEQI                                                        
+REMARK 500  1 ALA A  202    OMEGA= 180.0                                        
+REMARK 500  2 ALA A  527    OMEGA= 180.0                                        
+REMARK 500  3 ASP A  136    OMEGA= 180.0                                        
+REMARK 500  4 ASP A  199    OMEGA= 180.0                                        
+REMARK 500  5 ASP A  270    OMEGA= 180.0                                        
+REMARK 500  6 ASP A  337    OMEGA= 180.0                                        
+REMARK 500  7 GLU A  465    OMEGA= 180.0                                        
+REMARK 500  8 GLU A  475    OMEGA= 180.0                                        
+REMARK 500  9 GLU A  544    OMEGA= 180.0                                        
+REMARK 500 10 GLN A  289    OMEGA= 180.0                                        
+REMARK 500 11 HIS A  193    OMEGA= 180.0                                        
+REMARK 500 12 HIS A  207    OMEGA= 180.0                                        
+REMARK 500 13 HIS A  278    OMEGA= 180.0                                        
+REMARK 500 14 HIS A  343    OMEGA= 180.0                                        
+REMARK 500 15 HIS A  386    OMEGA= 180.0                                        
+REMARK 500 16 LYS A  115    OMEGA= 180.0                                        
+REMARK 500 17 LYS A  211    OMEGA= 180.0                                        
+REMARK 500 18 LYS A  298    OMEGA= 180.0                                        
+REMARK 500 19 LYS A  346    OMEGA= 180.0                                        
+REMARK 500 20 LYS A  432    OMEGA= 180.0                                        
+REMARK 500 21 LYS A  485    OMEGA= 180.0                                        
+REMARK 500 22 LYS A  541    OMEGA= 180.0                                        
+REMARK 500 23 MET A  113    OMEGA= 180.0                                        
+REMARK 500 24 MET A  162    OMEGA= 180.0                                        
+REMARK 500 25 MET A  229    OMEGA= 180.0                                        
+REMARK 500 26 MET A  306    OMEGA= 180.0                                        
+REMARK 500 27 MET A  363    OMEGA= 180.0                                        
+REMARK 500 28 MET A  394    OMEGA= 180.0                                        
+REMARK 500 29 MET A  447    OMEGA= 180.0                                        
+REMARK 500 30 MET A  508    OMEGA= 180.0                                        
+REMARK 500 31 MET A  522    OMEGA= 180.0                                        
+REMARK 500 32 MET A  537    OMEGA= 180.0                                        
+REMARK 500 33 MET A  554    OMEGA= 180.0                                        
+REMARK 500 34 PHE A  205    OMEGA= 180.0                                        
+REMARK 500 35 PHE A  210    OMEGA= 180.0                                        
+REMARK 500 36 PHE A  367    OMEGA= 180.0                                        
+REMARK 500 37 PHE A  381    OMEGA= 180.0                                        
+REMARK 500 38 PHE A  404    OMEGA= 180.0                                        
+REMARK 500 39 PHE A  429    OMEGA= 180.0                                        
+REMARK 500 40 PHE A  441    OMEGA= 180.0                                        
+REMARK 500 41 PHE A  503    OMEGA= 180.0                                        
+REMARK 500 42 PHE A  518    OMEGA= 180.0                                        
+REMARK 500 43 PHE A  566    OMEGA= 180.0                                        
+REMARK 500 44 SER A  119    OMEGA= 180.0                                        
+REMARK 500 45 SER A  130    OMEGA= 180.0                                        
+REMARK 500 46 SER A  138    OMEGA= 180.0                                        
+REMARK 500 47 SER A  166    OMEGA= 180.0                                        
+REMARK 500 48 SER A  191    OMEGA= 180.0                                        
+REMARK 500 49 SER A  215    OMEGA= 180.0                                        
+REMARK 500 50 SER A  239    OMEGA= 180.0                                        
+REMARK 500 51 SER A  252    OMEGA= 180.0                                        
+REMARK 500 52 SER A  266    OMEGA= 180.0                                        
+REMARK 500 53 SER A  273    OMEGA= 180.0                                        
+REMARK 500 54 SER A  291    OMEGA= 180.0                                        
+REMARK 500 55 SER A  309    OMEGA= 180.0                                        
+REMARK 500 56 SER A  322    OMEGA= 180.0                                        
+REMARK 500 57 SER A  355    OMEGA= 180.0                                        
+REMARK 500 58 SER A  378    OMEGA= 180.0                                        
+REMARK 500 59 SER A  391    OMEGA= 180.0                                        
+REMARK 500 60 SER A  413    OMEGA= 180.0                                        
+REMARK 500 61 SER A  438    OMEGA= 180.0                                        
+REMARK 500 62 SER A  452    OMEGA= 180.0                                        
+REMARK 500 63 SER A  466    OMEGA= 180.0                                        
+REMARK 500 64 SER A  479    OMEGA= 180.0                                        
+REMARK 500 65 SER A  491    OMEGA= 180.0                                        
+REMARK 500 66 SER A  506    OMEGA= 180.0                                        
+REMARK 500 67 SER A  521    OMEGA= 180.0                                        
+REMARK 500 68 SER A  534    OMEGA= 180.0                                        
+REMARK 500 69 SER A  550    OMEGA= 180.0                                        
+REMARK 500 70 SER A  558    OMEGA= 180.0                                        
+REMARK 500 71 SER A  573    OMEGA= 180.0                                        
+REMARK 500 72 SER A  583    OMEGA= 180.0                                        
+REMARK 500 73 TYR A  115    OMEGA= 180.0                                        
+REMARK 500 74 TYR A  130    OMEGA= 180.0                                        
+REMARK 500 75 TYR A  180    OMEGA= 180.0                                        
+REMARK 500 76 TYR A  238    OMEGA= 180.0                                        
+REMARK 500 77 TYR A  274    OMEGA= 180.0                                        
+REMARK 500 78 TYR A  341    OMEGA= 180.0                                        
+REMARK 500 79 TYR A  355    OMEGA= 180.0                                        
+REMARK 500 80 TYR A  371    OMEGA= 180.0                                        
+REMARK 500 81 TYR A  385    OMEGA= 180.0                                        
+REMARK 500 82 TYR A  411    OMEGA= 180.0                                        
+REMARK 500 83 TYR A  424    OMEGA= 180.0                                        
+REMARK 500 84 TYR A  466    OMEGA= 180.0                                        
+REMARK 500 85 TYR A  480    OMEGA= 180.0                                        
+REMARK 500 86 TYR A  495    OMEGA= 180.0                                        
+REMARK 500 87 TYR A  511    OMEGA= 180.0                                        
+REMARK 500 88 TYR A  528    OMEGA= 180.0                                        
+REMARK 500 89 TYR A  545    OMEGA= 180.0                                        
+REMARK 500 90 TYR A  561    OMEGA= 180.0                                        
+REMARK 500 91 TYR A  577    OMEGA= 180.0                                        
+REMARK 500 92 TYR A  587    OMEGA= 180.0                                        
+REMARK 500 93 VAL A  295    OMEGA= 180.0                                        
+REMARK 500 94 VAL A  349    OMEGA= 180.0                                        
+REMARK 500 95 VAL A  389    OMEGA= 180.0                                        
+REMARK 500 96 VAL A  445    OMEGA= 180.0                                        
+REMARK 500 97 VAL A  456    OMEGA= 180.0                                        
+REMARK 500 98 VAL A  489    OMEGA= 180.0                                        
+REMARK 500 99 VAL A  536    OMEGA= 180.0                                        
+REMARK 500 100 VAL A  570    OMEGA= 180.0                                       
+REMARK 500 101 VAL A  592    OMEGA= 180.0                                       
+REMARK 500                                                                      
+REMARK 500 GEOMETRY AND STEREOCHEMISTRY                                         
+REMARK 500 THE FOLLOWING RESIDUES HAVE UNUSUAL MAIN CHAIN TWIST ANGLES:         
+REMARK 500                                                                      
+REMARK 500  M RES CSSEQI                                                        
+REMARK 500  1 ALA A  202    PHI=-120.0  PSI= 150.0                              
+REMARK 500  2 ALA A  527    PHI=-120.0  PSI= 150.0                              
+REMARK 500  3 ASP A  136    PHI=-120.0  PSI= 150.0                              
+REMARK 500  4 ASP A  199    PHI=-120.0  PSI= 150.0                              
+REMARK 500  5 ASP A  270    PHI=-120.0  PSI= 150.0                              
+REMARK 500  6 ASP A  337    PHI=-120.0  PSI= 150.0                              
+REMARK 500  7 GLU A  465    PHI=-120.0  PSI= 150.0                              
+REMARK 500  8 GLU A  475    PHI=-120.0  PSI= 150.0                              
+REMARK 500  9 GLU A  544    PHI=-120.0  PSI= 150.0                              
+REMARK 500 10 GLN A  289    PHI=-120.0  PSI= 150.0                              
+REMARK 500 11 HIS A  193    PHI=-120.0  PSI= 150.0                              
+REMARK 500 12 HIS A  207    PHI=-120.0  PSI= 150.0                              
+REMARK 500 13 HIS A  278    PHI=-120.0  PSI= 150.0                              
+REMARK 500 14 HIS A  343    PHI=-120.0  PSI= 150.0                              
+REMARK 500 15 HIS A  386    PHI=-120.0  PSI= 150.0                              
+REMARK 500 16 LYS A  115    PHI=-120.0  PSI= 150.0                              
+REMARK 500 17 LYS A  211    PHI=-120.0  PSI= 150.0                              
+REMARK 500 18 LYS A  298    PHI=-120.0  PSI= 150.0                              
+REMARK 500 19 LYS A  346    PHI=-120.0  PSI= 150.0                              
+REMARK 500 20 LYS A  432    PHI=-120.0  PSI= 150.0                              
+REMARK 500 21 LYS A  485    PHI=-120.0  PSI= 150.0                              
+REMARK 500 22 LYS A  541    PHI=-120.0  PSI= 150.0                              
+REMARK 500 23 MET A  113    PHI=-120.0  PSI= 150.0                              
+REMARK 500 24 MET A  162    PHI=-120.0  PSI= 150.0                              
+REMARK 500 25 MET A  229    PHI=-120.0  PSI= 150.0                              
+REMARK 500 26 MET A  306    PHI=-120.0  PSI= 150.0                              
+REMARK 500 27 MET A  363    PHI=-120.0  PSI= 150.0                              
+REMARK 500 28 MET A  394    PHI=-120.0  PSI= 150.0                              
+REMARK 500 29 MET A  447    PHI=-120.0  PSI= 150.0                              
+REMARK 500 30 MET A  508    PHI=-120.0  PSI= 150.0                              
+REMARK 500 31 MET A  522    PHI=-120.0  PSI= 150.0                              
+REMARK 500 32 MET A  537    PHI=-120.0  PSI= 150.0                              
+REMARK 500 33 MET A  554    PHI=-120.0  PSI= 150.0                              
+REMARK 500 34 PHE A  205    PHI=-120.0  PSI= 150.0                              
+REMARK 500 35 PHE A  210    PHI=-120.0  PSI= 150.0                              
+REMARK 500 36 PHE A  367    PHI=-120.0  PSI= 150.0                              
+REMARK 500 37 PHE A  381    PHI=-120.0  PSI= 150.0                              
+REMARK 500 38 PHE A  404    PHI=-120.0  PSI= 150.0                              
+REMARK 500 39 PHE A  429    PHI=-120.0  PSI= 150.0                              
+REMARK 500 40 PHE A  441    PHI=-120.0  PSI= 150.0                              
+REMARK 500 41 PHE A  503    PHI=-120.0  PSI= 150.0                              
+REMARK 500 42 PHE A  518    PHI=-120.0  PSI= 150.0                              
+REMARK 500 43 PHE A  566    PHI=-120.0  PSI= 150.0                              
+REMARK 500 44 SER A  119    PHI=-120.0  PSI= 150.0                              
+REMARK 500 45 SER A  130    PHI=-120.0  PSI= 150.0                              
+REMARK 500 46 SER A  138    PHI=-120.0  PSI= 150.0                              
+REMARK 500 47 SER A  166    PHI=-120.0  PSI= 150.0                              
+REMARK 500 48 SER A  191    PHI=-120.0  PSI= 150.0                              
+REMARK 500 49 SER A  215    PHI=-120.0  PSI= 150.0                              
+REMARK 500 50 SER A  239    PHI=-120.0  PSI= 150.0                              
+REMARK 500 51 SER A  252    PHI=-120.0  PSI= 150.0                              
+REMARK 500 52 SER A  266    PHI=-120.0  PSI= 150.0                              
+REMARK 500 53 SER A  273    PHI=-120.0  PSI= 150.0                              
+REMARK 500 54 SER A  291    PHI=-120.0  PSI= 150.0                              
+REMARK 500 55 SER A  309    PHI=-120.0  PSI= 150.0                              
+REMARK 500 56 SER A  322    PHI=-120.0  PSI= 150.0                              
+REMARK 500 57 SER A  355    PHI=-120.0  PSI= 150.0                              
+REMARK 500 58 SER A  378    PHI=-120.0  PSI= 150.0                              
+REMARK 500 59 SER A  391    PHI=-120.0  PSI= 150.0                              
+REMARK 500 60 SER A  413    PHI=-120.0  PSI= 150.0                              
+REMARK 500 61 SER A  438    PHI=-120.0  PSI= 150.0                              
+REMARK 500 62 SER A  452    PHI=-120.0  PSI= 150.0                              
+REMARK 500 63 SER A  466    PHI=-120.0  PSI= 150.0                              
+REMARK 500 64 SER A  479    PHI=-120.0  PSI= 150.0                              
+REMARK 500 65 SER A  491    PHI=-120.0  PSI= 150.0                              
+REMARK 500 66 SER A  506    PHI=-120.0  PSI= 150.0                              
+REMARK 500 67 SER A  521    PHI=-120.0  PSI= 150.0                              
+REMARK 500 68 SER A  534    PHI=-120.0  PSI= 150.0                              
+REMARK 500 69 SER A  550    PHI=-120.0  PSI= 150.0                              
+REMARK 500 70 SER A  558    PHI=-120.0  PSI= 150.0                              
+REMARK 500 71 SER A  573    PHI=-120.0  PSI= 150.0                              
+REMARK 500 72 SER A  583    PHI=-120.0  PSI= 150.0                              
+REMARK 500 73 TYR A  115    PHI=-120.0  PSI= 150.0                              
+REMARK 500 74 TYR A  130    PHI=-120.0  PSI= 150.0                              
+REMARK 500 75 TYR A  180    PHI=-120.0  PSI= 150.0                              
+REMARK 500 76 TYR A  238    PHI=-120.0  PSI= 150.0                              
+REMARK 500 77 TYR A  274    PHI=-120.0  PSI= 150.0                              
+REMARK 500 78 TYR A  341    PHI=-120.0  PSI= 150.0                              
+REMARK 500 79 TYR A  355    PHI=-120.0  PSI= 150.0                              
+REMARK 500 80 TYR A  371    PHI=-120.0  PSI= 150.0                              
+REMARK 500 81 TYR A  385    PHI=-120.0  PSI= 150.0                              
+REMARK 500 82 TYR A  411    PHI=-120.0  PSI= 150.0                              
+REMARK 500 83 TYR A  424    PHI=-120.0  PSI= 150.0                              
+REMARK 500 84 TYR A  466    PHI=-120.0  PSI= 150.0                              
+REMARK 500 85 TYR A  480    PHI=-120.0  PSI= 150.0                              
+REMARK 500 86 TYR A  495    PHI=-120.0  PSI= 150.0                              
+REMARK 500 87 TYR A  511    PHI=-120.0  PSI= 150.0                              
+REMARK 500 88 TYR A  528    PHI=-120.0  PSI= 150.0                              
+REMARK 500 89 TYR A  545    PHI=-120.0  PSI= 150.0                              
+REMARK 500 90 TYR A  561    PHI=-120.0  PSI= 150.0                              
+REMARK 500 91 TYR A  577    PHI=-120.0  PSI= 150.0                              
+REMARK 500 92 TYR A  587    PHI=-120.0  PSI= 150.0                              
+REMARK 500 93 VAL A  295    PHI=-120.0  PSI= 150.0                              
+REMARK 500 94 VAL A  349    PHI=-120.0  PSI= 150.0                              
+REMARK 500 95 VAL A  389    PHI=-120.0  PSI= 150.0                              
+REMARK 500 96 VAL A  445    PHI=-120.0  PSI= 150.0                              
+REMARK 500 97 VAL A  456    PHI=-120.0  PSI= 150.0                              
+REMARK 500 98 VAL A  489    PHI=-120.0  PSI= 150.0                              
+REMARK 500 99 VAL A  536    PHI=-120.0  PSI= 150.0                              
+REMARK 500 100 VAL A  570    PHI=-120.0  PSI= 150.0                             
+REMARK 500 101 VAL A  592    PHI=-120.0  PSI= 150.0                             
+REMARK 500                                                                      
+REMARK 500 GEOMETRY AND STEREOCHEMISTRY                                         
+REMARK 500 THE FOLLOWING RESIDUES HAVE UNUSUAL SIDE CHAIN PLANARITY:            
+REMARK 500                                                                      
+REMARK 500  M RES CSSEQI                                                        
+REMARK 500  1 ARG A  120    CHI1= -60.0  CHI2= 180.0  CHI3= 180.0               
+REMARK 500  2 ARG A  143    CHI1= -60.0  CHI2= 180.0  CHI3= 180.0               
+REMARK 500  3 ARG A  252    CHI1= -60.0  CHI2= 180.0  CHI3= 180.0               
+REMARK 500  4 ARG A  332    CHI1= -60.0  CHI2= 180.0  CHI3= 180.0               
+REMARK 500  5 ARG A  499    CHI1= -60.0  CHI2= 180.0  CHI3= 180.0               
+REMARK 500  6 ASN A  143    CHI1= -60.0  CHI2= 180.0                            
+REMARK 500  7 ASN A  193    CHI1= -60.0  CHI2= 180.0                            
+REMARK 500  8 ASN A  382    CHI1= -60.0  CHI2= 180.0                            
+REMARK 500  9 ASN A  414    CHI1= -60.0  CHI2= 180.0                            
+REMARK 500 10 ASP A  136    CHI1= -60.0  CHI2= 180.0                            
+REMARK 500 11 ASP A  199    CHI1= -60.0  CHI2= 180.0                            
+REMARK 500 12 ASP A  270    CHI1= -60.0  CHI2= 180.0                            
+REMARK 500 13 ASP A  337    CHI1= -60.0  CHI2= 180.0                            
+REMARK 500 14 GLU A  465    CHI1= -60.0  CHI2= 180.0  CHI3= 180.0               
+REMARK 500 15 GLU A  475    CHI1= -60.0  CHI2= 180.0  CHI3= 180.0               
+REMARK 500 16 GLU A  544    CHI1= -60.0  CHI2= 180.0  CHI3= 180.0               
+REMARK 500 17 GLN A  289    CHI1= -60.0  CHI2= 180.0  CHI3= 180.0               
+REMARK 500 18 HIS A  193    CHI1= -60.0  CHI2= 180.0                            
+REMARK 500 19 HIS A  207    CHI1= -60.0  CHI2= 180.0                            
+REMARK 500 20 HIS A  278    CHI1= -60.0  CHI2= 180.0                            
+REMARK 500 21 HIS A  343    CHI1= -60.0  CHI2= 180.0                            
+REMARK 500 22 HIS A  386    CHI1= -60.0  CHI2= 180.0                            
+REMARK 500 23 ILE A  345    CHI1= -60.0  CHI2= 180.0                            
+REMARK 500 24 ILE A  408    CHI1= -60.0  CHI2= 180.0                            
+REMARK 500 25 ILE A  471    CHI1= -60.0  CHI2= 180.0                            
+REMARK 500 26 ILE A  523    CHI1= -60.0  CHI2= 180.0                            
+REMARK 500 27 LEU A  110    CHI1= -60.0  CHI2= 180.0                            
+REMARK 500 28 LEU A  145    CHI1= -60.0  CHI2= 180.0                            
+REMARK 500 29 LEU A  152    CHI1= -60.0  CHI2= 180.0                            
+REMARK 500 30 LEU A  197    CHI1= -60.0  CHI2= 180.0                            
+REMARK 500 31 LEU A  231    CHI1= -60.0  CHI2= 180.0                            
+REMARK 500 32 LEU A  249    CHI1= -60.0  CHI2= 180.0                            
+REMARK 500 33 LEU A  294    CHI1= -60.0  CHI2= 180.0                            
+REMARK 500 34 LEU A  325    CHI1= -60.0  CHI2= 180.0                            
+REMARK 500 35 LEU A  331    CHI1= -60.0  CHI2= 180.0                            
+REMARK 500 36 LEU A  345    CHI1= -60.0  CHI2= 180.0                            
+REMARK 500 37 LEU A  370    CHI1= -60.0  CHI2= 180.0                            
+REMARK 500 38 LEU A  384    CHI1= -60.0  CHI2= 180.0                            
+REMARK 500 39 LEU A  398    CHI1= -60.0  CHI2= 180.0                            
+REMARK 500 40 LEU A  417    CHI1= -60.0  CHI2= 180.0                            
+REMARK 500 41 LEU A  469    CHI1= -60.0  CHI2= 180.0                            
+REMARK 500 42 LEU A  477    CHI1= -60.0  CHI2= 180.0                            
+REMARK 500 43 LEU A  485    CHI1= -60.0  CHI2= 180.0                            
+REMARK 500 44 LEU A  517    CHI1= -60.0  CHI2= 180.0                            
+REMARK 500 45 LEU A  531    CHI1= -60.0  CHI2= 180.0                            
+REMARK 500 46 LEU A  552    CHI1= -60.0  CHI2= 180.0                            
+REMARK 500 47 LEU A  559    CHI1= -60.0  CHI2= 180.0                            
+REMARK 500 48 LEU A  576    CHI1= -60.0  CHI2= 180.0                            
+REMARK 500 49 LYS A  115    CHI1= -60.0  CHI2= 180.0  CHI3= 180.0               
+REMARK 500 50 LYS A  211    CHI1= -60.0  CHI2= 180.0  CHI3= 180.0               
+REMARK 500 51 LYS A  298    CHI1= -60.0  CHI2= 180.0  CHI3= 180.0               
+REMARK 500 52 LYS A  346    CHI1= -60.0  CHI2= 180.0  CHI3= 180.0               
+REMARK 500 53 LYS A  432    CHI1= -60.0  CHI2= 180.0  CHI3= 180.0               
+REMARK 500 54 LYS A  485    CHI1= -60.0  CHI2= 180.0  CHI3= 180.0               
+REMARK 500 55 LYS A  541    CHI1= -60.0  CHI2= 180.0  CHI3= 180.0               
+REMARK 500 56 MET A  113    CHI1= -60.0  CHI2= 180.0  CHI3= 180.0               
+REMARK 500 57 MET A  162    CHI1= -60.0  CHI2= 180.0  CHI3= 180.0               
+REMARK 500 58 MET A  229    CHI1= -60.0  CHI2= 180.0  CHI3= 180.0               
+REMARK 500 59 MET A  306    CHI1= -60.0  CHI2= 180.0  CHI3= 180.0               
+REMARK 500 60 MET A  363    CHI1= -60.0  CHI2= 180.0  CHI3= 180.0               
+REMARK 500 61 MET A  394    CHI1= -60.0  CHI2= 180.0  CHI3= 180.0               
+REMARK 500 62 MET A  447    CHI1= -60.0  CHI2= 180.0  CHI3= 180.0               
+REMARK 500 63 MET A  508    CHI1= -60.0  CHI2= 180.0  CHI3= 180.0               
+REMARK 500 64 MET A  522    CHI1= -60.0  CHI2= 180.0  CHI3= 180.0               
+REMARK 500 65 MET A  537    CHI1= -60.0  CHI2= 180.0  CHI3= 180.0               
+REMARK 500 66 MET A  554    CHI1= -60.0  CHI2= 180.0  CHI3= 180.0               
+REMARK 500 67 PHE A  205    CHI1= -60.0  CHI2= 180.0                            
+REMARK 500 68 PHE A  210    CHI1= -60.0  CHI2= 180.0                            
+REMARK 500 69 PHE A  367    CHI1= -60.0  CHI2= 180.0                            
+REMARK 500 70 PHE A  381    CHI1= -60.0  CHI2= 180.0                            
+REMARK 500 71 PHE A  404    CHI1= -60.0  CHI2= 180.0                            
+REMARK 500 72 PHE A  429    CHI1= -60.0  CHI2= 180.0                            
+REMARK 500 73 PHE A  441    CHI1= -60.0  CHI2= 180.0                            
+REMARK 500 74 PHE A  503    CHI1= -60.0  CHI2= 180.0                            
+REMARK 500 75 PHE A  518    CHI1= -60.0  CHI2= 180.0                            
+REMARK 500 76 PHE A  566    CHI1= -60.0  CHI2= 180.0                            
+REMARK 500 77 SER A  119    CHI1= -60.0                                         
+REMARK 500 78 SER A  130    CHI1= -60.0                                         
+REMARK 500 79 SER A  138    CHI1= -60.0                                         
+REMARK 500 80 SER A  166    CHI1= -60.0                                         
+REMARK 500 81 SER A  191    CHI1= -60.0                                         
+REMARK 500 82 SER A  215    CHI1= -60.0                                         
+REMARK 500 83 SER A  239    CHI1= -60.0                                         
+REMARK 500 84 SER A  252    CHI1= -60.0                                         
+REMARK 500 85 SER A  266    CHI1= -60.0                                         
+REMARK 500 86 SER A  273    CHI1= -60.0                                         
+REMARK 500 87 SER A  291    CHI1= -60.0                                         
+REMARK 500 88 SER A  309    CHI1= -60.0                                         
+REMARK 500 89 SER A  322    CHI1= -60.0                                         
+REMARK 500 90 SER A  355    CHI1= -60.0                                         
+REMARK 500 91 SER A  378    CHI1= -60.0                                         
+REMARK 500 92 SER A  391    CHI1= -60.0                                         
+REMARK 500 93 SER A  413    CHI1= -60.0                                         
+REMARK 500 94 SER A  438    CHI1= -60.0                                         
+REMARK 500 95 SER A  452    CHI1= -60.0                                         
+REMARK 500 96 SER A  466    CHI1= -60.0                                         
+REMARK 500 97 SER A  479    CHI1= -60.0                                         
+REMARK 500 98 SER A  491    CHI1= -60.0                                         
+REMARK 500 99 SER A  506    CHI1= -60.0                                         
+REMARK 500 100 SER A  521    CHI1= -60.0                                        
+REMARK 500 101 SER A  534    CHI1= -60.0                                        
+REMARK 500 102 SER A  550    CHI1= -60.0                                        
+REMARK 500 103 SER A  558    CHI1= -60.0                                        
+REMARK 500 104 SER A  573    CHI1= -60.0                                        
+REMARK 500 105 SER A  583    CHI1= -60.0                                        
+REMARK 500 106 THR A  206    CHI1= -60.0                                        
+REMARK 500 107 THR A  212    CHI1= -60.0                                        
+REMARK 500 108 THR A  224    CHI1= -60.0                                        
+REMARK 500 109 THR A  283    CHI1= -60.0                                        
+REMARK 500 110 THR A  316    CHI1= -60.0                  

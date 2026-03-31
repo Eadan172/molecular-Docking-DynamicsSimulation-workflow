@@ -1,0 +1,81 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Output directories
+results/
+output/
+
+# GROMACS files
+*.tpr
+*.trr
+*.xtc
+*.edr
+*.gro
+*.top
+*.itp
+*.mdp
+*.log
+*.cpt
+*.mdp.bak
+*.top.bak
+
+# AutoDock Vina
+*.pdbqt
+*.out
+
+# Images
+*.png
+*.jpg
+*.jpeg
+*.svg
+*.pdf
+
+# Data - 保留示例数据
+# data/*.pdb
+# data/*.sdf
+# data/*.mol2
+# data/*.pdbqt
+examples/*
+docs/*
+
+# 实际运行产生的数据
+data/*.out
+data/*_temp*
+data/*_backup*
+
+# Temporary files
+*.tmp
+*.bak
+.DS_Store
+Thumbs.db
