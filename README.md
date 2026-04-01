@@ -161,7 +161,3 @@ qsub results/submit_md.sh
 ## 📄 许可证
 
 MIT License
-
-## 🤝 作者
-
-面试演示项目
